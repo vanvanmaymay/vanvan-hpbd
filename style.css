@@ -127,3 +127,10 @@ img {
     position: absolute;
     padding-top: 250px;
 }
+.cakename {
+    top: 24pc;
+    position: absolute;
+    left: 105px;
+    color: chocolate;
+}
+}
