@@ -128,9 +128,7 @@ img {
     padding-top: 250px;
 }
 .cakename {
-    top: 392px;
-    position: absolute;
-    left: 105px;
+    margin-top: -194px;
     color: #e83e8c;
 }
 }
