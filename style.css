@@ -138,7 +138,7 @@ img {
     width: 50%;
 }
 .photo {
-    margin-top: 280px;
+    margin-top: 350px;
 }
 .birthday-btn {
     padding: 12px 28px;
@@ -162,5 +162,8 @@ img {
 
 .birthday-btn:active {
     transform: scale(0.96);
+}
+.martop {
+    margin-top: 50px;
 }
 
