@@ -134,7 +134,33 @@ img {
 }
 .footer-img {
     display: block;
-    margin: 200px auto 0 auto; /* cách trên 40px, căn giữa */
-    max-width: 10%;
+    margin: 0px auto 0 auto; /* cách trên 40px, căn giữa */
+    width: 50%;
+}
+.photo {
+    margin-top: 280px;
+}
+.birthday-btn {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #ff9ad5, #ff6fcf);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(255, 105, 180, 0.4);
+    transition: 0.3s ease;
+    letter-spacing: 0.5px;
+}
+
+.birthday-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(255, 105, 180, 0.55);
+    opacity: 0.95;
+}
+
+.birthday-btn:active {
+    transform: scale(0.96);
 }
 
