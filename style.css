@@ -132,4 +132,9 @@ img {
     margin-top: -194px;
     color: #e83e8c;
 }
+.footer-img {
+    display: block;
+    margin: 200px auto 0 auto; /* cách trên 40px, căn giữa */
+    max-width: 10%;
+}
 
