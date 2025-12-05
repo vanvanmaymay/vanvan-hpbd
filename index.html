@@ -72,24 +72,24 @@
     <button class="birthday-btn" onclick="function startHeartRain() {
     const container = document.getElementById('heart-container');
 
-  for (let i = 0; i < 20; i++) {   // số lượng trái tim rơi
-    const heart = document.createElement('div');
-    heart.classList.add('heart');
-    heart.innerText = '💗';
+    for (let i = 0; i < 20; i++) {   // số lượng trái tim rơi
+        const heart = document.createElement('div');
+        heart.classList.add('heart');
+        heart.innerText = '💗';
 
-    // Vị trí ngẫu nhiên trái tim
-    heart.style.left = Math.random() * 100 + 'vw';
+        // Vị trí ngẫu nhiên trái tim
+        heart.style.left = Math.random() * 100 + 'vw';
 
-    // Độ trễ rơi ngẫu nhiên
-    heart.style.animationDelay = Math.random() * 1 + 's';
+        // Thời gian trễ ngẫu nhiên
+        heart.style.animationDelay = Math.random() * 1 + 's';
 
-    container?.appendChild(heart);
+        container.appendChild(heart);
 
-    // Xóa khỏi DOM sau khi animation kết thúc
-    setTimeout(() => {
-      heart.remove();
-    }, 3000);
-  }
+        // Xóa khỏi DOM sau 3 giây
+        setTimeout(() => {
+            heart.remove();
+        }, 3000);
+    }
     }
     startHeartRain()">
         happy birth day to you
